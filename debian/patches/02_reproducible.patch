@@ -1,0 +1,13 @@
+Description: Do not introduce build date in the documentation
+Author: Nilesh Patra <nilesh@debian.org>
+Last-Update: 2021-06-08
+--- a/gl2ps.tex
++++ b/gl2ps.tex
+@@ -62,6 +62,7 @@
+ 
+ \title{GL2PS: an OpenGL to PostScript printing library}
+ \author{Christophe Geuzaine}
++\date{}
+ 
+ \maketitle
+ 
